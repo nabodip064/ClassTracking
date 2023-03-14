@@ -1,0 +1,41 @@
+﻿@page "/asign/teacher"
+@inherits ClassTracking.Client.Bases.ClassStandardInfo.AssignTeacherBase
+
+<h3>Asign or Reasign Teacher</h3>
+<br />
+<hr/>
+<div>    
+    <div class="form-group row">
+        <label for="ClassStandard" class="col-sm-3 col-form-label">
+            Class
+        </label>
+        <div class="col-sm-9">            
+            <select id="ClassStandard" class="form-control" @onchange="@OnSelectClass" >
+                <option value="">Select Any</option>
+                @foreach (var classStandard in classStandards)
+                {
+                    <option value="@classStandard.Id">@classStandard.Name</option>
+                }
+            </select>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="Teacher" class="col-sm-3 col-form-label">
+            Teacher
+        </label>
+        <div class="col-sm-9">            
+            <select id="Teacher" class="form-control" @onchange="@OnSelectTeacher" >
+                <option value="">Select Any</option>
+                @foreach (var teacher in teachers)
+                {
+                    <option value="@teacher.Id">@teacher.Name</option>
+                }
+            </select>
+        </div>
+    </div>
+    <button class="btn btn-primary" @onclick="AssignTeacher">Assign Teacher</button>
+</div>
+
+@code {
+
+}

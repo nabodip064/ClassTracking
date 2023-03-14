@@ -272,7 +272,7 @@
       "System.Private.CoreLib.dll": "sha256-sfzSZ3YKC2rpF77TVOKLuPgQag93QXr9U4AUc9d\/LKA=",
       "ClassTracking.Client.Provider.dll": "sha256-+\/CGDh+wvF\/6CFCCS3VDwtdZshbC+qlh5vPe7gRf\/DQ=",
       "ClassTracking.Shared.dll": "sha256-5rVLD7ghaWNkzjXh35PBabJZMvKwCOD+asevayl1w8A=",
-      "ClassTracking.Client.dll": "sha256-v28o314lKvBhcvj0ZuX3C7XDihsyqq40ibI1ywgX1+U="
+      "ClassTracking.Client.dll": "sha256-8qWLcgzlbBYR+bssMIuX31kr+awOf7+yzsA+iiOtTuA="
     },
     "extensions": null,
     "lazyAssembly": null,
@@ -280,7 +280,7 @@
     "pdb": {
       "ClassTracking.Client.Provider.pdb": "sha256-8WqVQPl9QRvrG7P8NzayCX+ZZljFcs917UqacF3y5Wc=",
       "ClassTracking.Shared.pdb": "sha256-Qtcz6Uiyq14Eoq06ga66yLfPwa4eyJeZKHrN9OackOE=",
-      "ClassTracking.Client.pdb": "sha256-4BG+g1H7TGsSKM5\/I+Hs2PHiRS6mDKzH3jxHIpohMI8="
+      "ClassTracking.Client.pdb": "sha256-Lh0j6bBp\/FNQ7Ivzyq\/TkXD1KYoWOhcsxZlCpqdIeww="
     },
     "runtime": {
       "dotnet.6.0.5.7tscoh3f0v.js": "sha256-783uOt0jgblQfP6Yz5TJeuW2xxtl6UHZQPngZtCz79U=",
