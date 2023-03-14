@@ -1,0 +1,29 @@
+﻿@page "/teacher/list"
+@using ClassTracking.Shared.Models
+
+@inherits Bases.TeacherInfo.TeacherListBase
+
+<h3>Teachers</h3>
+<br />
+<hr />
+<a href="@($"teacher/save")" class="btn btn-info">Add New</a>
+@if(teachers != null)
+{    
+    <RadzenDataGrid AllowFiltering="true" AllowColumnResize="true" AllowAlternatingRows="false" FilterMode="FilterMode.Advanced" AllowSorting="true" PageSize="5" AllowPaging="true" PagerHorizontalAlign="HorizontalAlign.Left" ShowPagingSummary="true"
+        Data="@teachers" TItem="Teacher" LogicalFilterOperator="LogicalFilterOperator.Or">
+        <Columns>
+            <RadzenDataGridColumn TItem="Teacher" Property="Name" Title="Name" />
+            <RadzenDataGridColumn TItem="Teacher" Property="Designation" Title="Designation"/>
+            <RadzenDataGridColumn TItem="Teacher" Property="JoiningDate" Title="Joining Date" FormatString="{0:d}" />
+            <RadzenDataGridColumn TItem="Teacher" Property="ModifyDocument" Title="Action" Frozen="true" Sortable="false" Filterable="false">
+                <Template Context="selectedData">
+                    <RadzenButton ButtonStyle="ButtonStyle.Primary" Icon="edit" Click="@(() => ActionUpdateSelectedItem(selectedData.Id))" />
+                    <RadzenButton ButtonStyle="ButtonStyle.Danger" Icon="delete" Click="@(() => ActionDeleteSelectedItem(selectedData.Id))" />
+                </Template>
+            </RadzenDataGridColumn> 
+        </Columns>
+    </RadzenDataGrid>
+}
+else{
+    <p>Loading......</p>
+}

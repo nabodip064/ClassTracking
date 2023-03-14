@@ -1,0 +1,92 @@
+﻿@page "/student/save"
+@page "/student/save/{Id:int}"
+@inherits Bases.StudentInfo.StudentSaveBase
+
+@if(Id == null)
+{
+    <h3>Add New Student</h3>
+}
+else
+{
+    <h3>Edit @student.Name</h3>
+}
+<br />
+<hr />
+<a href="student/list" class="btn btn-info">Back</a>
+<EditForm Model="@student" OnValidSubmit="HandleValidSubmit">
+    <DataAnnotationsValidator/>
+    <ValidationSummary/>
+    <div class="form-group row">
+        <label for="Name" class="col-sm-3 col-form-label">
+            Name
+        </label>
+        <div class="col-sm-9">
+            <InputText id="Name" class="form-control" placeholder="Name" @bind-Value="student.Name" />
+            <ValidationMessage For="@(() => student.Name)"/>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="MotherName" class="col-sm-3 col-form-label">
+            Mother Name
+        </label>
+        <div class="col-sm-9">
+            <InputText id="MotherName" class="form-control" placeholder="Mother Name" @bind-Value="student.MotherName" />
+            <ValidationMessage For="@(() => student.MotherName)"/>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="FatherName" class="col-sm-3 col-form-label">
+            Father Name
+        </label>
+        <div class="col-sm-9">
+            <InputText id="FatherName" class="form-control" placeholder="Father Name" @bind-Value="student.FatherName" />
+            <ValidationMessage For="@(() => student.FatherName)"/>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="Nationality" class="col-sm-3 col-form-label">
+            Nationality
+        </label>
+        <div class="col-sm-9">
+            <InputText id="Nationality" class="form-control" placeholder="Nationality" @bind-Value="student.Nationality" />
+            <ValidationMessage For="@(() => student.Nationality)"/>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="DateOfBirth" class="col-sm-3 col-form-label">
+            Date of Birth
+        </label>
+        <div class="col-sm-9">
+            <InputDate id="DateOfBirth" class="form-control" placeholder="Date of Birth" @bind-Value="student.DateOfBirth" />
+            <ValidationMessage For="@(() => student.DateOfBirth)"/>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="Class" class="col-sm-3 col-form-label">
+            Class
+        </label>
+        <div class="col-sm-9">            
+            <InputSelect id="Class" class="form-control" placeholder="Class" @bind-Value="student.ClassId" >
+                <option value="">Select Any</option>
+                @foreach (var classStandard in classes)
+                {
+                    <option value="@classStandard.Id">@classStandard.Name</option>
+                }
+            </InputSelect>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="EnrollDate" class="col-sm-3 col-form-label">
+            Enroll Date
+        </label>
+        <div class="col-sm-9">
+            <InputDate id="EnrollDate" class="form-control" placeholder="Enroll Date" @bind-Value="student.EnrollDate" />
+            <ValidationMessage For="@(() => student.EnrollDate)"/>
+        </div>
+    </div>
+    <button class="btn btn-primary" type="submit">Submit</button>
+</EditForm>
+
+@code {
+
+}

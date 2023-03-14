@@ -1,0 +1,32 @@
+﻿@page "/"
+@inherits ClassTracking.Client.Bases.Dashboard.HomeClassBase
+
+<h3>Dashboard</h3>
+
+@if(classStandards != null)
+{
+    <div class="container">
+        <div class="row">        
+            @foreach(var classStandard in classStandards)
+            {
+                <div class="col-sm-3 border border-success"><div style="background-color: lightblue;"> Class @classStandard.Standard</div>
+                    <div>Name: @classStandard.Name</div>
+                    <div>Standard: @classStandard.Standard</div>
+                    <div>Total Student: @classStandard.TotalStudent</div>
+                    <div>Max Student: @classStandard.MaxStudent</div>
+                    <div>Sesstion Year: @classStandard.SessionYear</div>
+                    <TeacherComponent Id="@classStandard.TeacherId"></TeacherComponent>
+                    <StudentComponent ClassId="@classStandard.Id"></StudentComponent>
+                </div>
+            }
+        </div>
+    </div>
+}
+else
+{
+    <p>Loading....</p>
+}
+
+@code {
+
+}

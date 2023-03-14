@@ -1,0 +1,33 @@
+﻿@page "/student/list"
+@using ClassTracking.Shared.Models
+
+@inherits Bases.StudentInfo.StudentListBase
+
+<h3>Students</h3>
+<br />
+<hr />
+<a href="@($"student/save")" class="btn btn-info">Enroll New Student</a>
+@if(students != null)
+{    
+    <RadzenDataGrid AllowFiltering="true" AllowColumnResize="true" AllowAlternatingRows="false" FilterMode="FilterMode.Advanced" AllowSorting="true" PageSize="5" AllowPaging="true" PagerHorizontalAlign="HorizontalAlign.Left" ShowPagingSummary="true"
+        Data="@students" TItem="Student" LogicalFilterOperator="LogicalFilterOperator.Or">
+        <Columns>
+            <RadzenDataGridColumn TItem="Student" Property="Name" Title="Name" />
+            <RadzenDataGridColumn TItem="Student" Property="Class.Name" Title="Class"/>
+            <RadzenDataGridColumn TItem="Student" Property="MotherName" Title="Mother Name"/>
+            <RadzenDataGridColumn TItem="Student" Property="FatherName" Title="Father Name" />
+            <RadzenDataGridColumn TItem="Student" Property="Nationality" Title="Nationality"/>
+            <RadzenDataGridColumn TItem="Student" Property="DateOfBirth" Title="Date of Birth" FormatString="{0:d}"/>
+            <RadzenDataGridColumn TItem="Student" Property="EnrollDate" Title="Enroll Date" FormatString="{0:d}"/>
+            <RadzenDataGridColumn TItem="Student" Property="ModifyDocument" Title="Action" Frozen="true" Sortable="false" Filterable="false">
+                <Template Context="selectedData">
+                    <RadzenButton ButtonStyle="ButtonStyle.Primary" Icon="edit" Click="@(() => ActionUpdateSelectedItem(selectedData.Id))" />
+                    <RadzenButton ButtonStyle="ButtonStyle.Danger" Icon="delete" Click="@(() => ActionDeleteSelectedItem(selectedData.Id))" />
+                </Template>
+            </RadzenDataGridColumn> 
+        </Columns>
+    </RadzenDataGrid>
+}
+else{
+    <p>Loading......</p>
+}

@@ -1,0 +1,12 @@
+D:\Programming\Practice\ClassTracking\ClassTracking.Client.Manager\bin\Debug\net6.0\ClassTracking.Client.Manager.deps.json
+D:\Programming\Practice\ClassTracking\ClassTracking.Client.Manager\bin\Debug\net6.0\ClassTracking.Client.Manager.dll
+D:\Programming\Practice\ClassTracking\ClassTracking.Client.Manager\bin\Debug\net6.0\ClassTracking.Client.Manager.pdb
+D:\Programming\Practice\ClassTracking\ClassTracking.Client.Manager\obj\Debug\net6.0\ClassTracking.Client.Manager.csproj.AssemblyReference.cache
+D:\Programming\Practice\ClassTracking\ClassTracking.Client.Manager\obj\Debug\net6.0\ClassTracking.Client.Manager.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Practice\ClassTracking\ClassTracking.Client.Manager\obj\Debug\net6.0\ClassTracking.Client.Manager.AssemblyInfoInputs.cache
+D:\Programming\Practice\ClassTracking\ClassTracking.Client.Manager\obj\Debug\net6.0\ClassTracking.Client.Manager.AssemblyInfo.cs
+D:\Programming\Practice\ClassTracking\ClassTracking.Client.Manager\obj\Debug\net6.0\ClassTracking.Client.Manager.csproj.CoreCompileInputs.cache
+D:\Programming\Practice\ClassTracking\ClassTracking.Client.Manager\obj\Debug\net6.0\ClassTracking.Client.Manager.dll
+D:\Programming\Practice\ClassTracking\ClassTracking.Client.Manager\obj\Debug\net6.0\refint\ClassTracking.Client.Manager.dll
+D:\Programming\Practice\ClassTracking\ClassTracking.Client.Manager\obj\Debug\net6.0\ClassTracking.Client.Manager.pdb
+D:\Programming\Practice\ClassTracking\ClassTracking.Client.Manager\obj\Debug\net6.0\ref\ClassTracking.Client.Manager.dll

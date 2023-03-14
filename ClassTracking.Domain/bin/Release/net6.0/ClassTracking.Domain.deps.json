@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ClassTracking.Domain/1.0.0": {
+        "dependencies": {
+          "ClassTracking.Shared": "1.0.0"
+        },
+        "runtime": {
+          "ClassTracking.Domain.dll": {}
+        }
+      },
+      "ClassTracking.Shared/1.0.0": {
+        "runtime": {
+          "ClassTracking.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ClassTracking.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ClassTracking.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

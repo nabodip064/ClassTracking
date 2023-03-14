@@ -1,0 +1,12 @@
+D:\Programming\Practice\ClassTracking\ClassTracking\Shared\bin\Debug\net6.0\ClassTracking.Shared.deps.json
+D:\Programming\Practice\ClassTracking\ClassTracking\Shared\bin\Debug\net6.0\ClassTracking.Shared.dll
+D:\Programming\Practice\ClassTracking\ClassTracking\Shared\bin\Debug\net6.0\ClassTracking.Shared.pdb
+D:\Programming\Practice\ClassTracking\ClassTracking\Shared\obj\Debug\net6.0\ClassTracking.Shared.csproj.AssemblyReference.cache
+D:\Programming\Practice\ClassTracking\ClassTracking\Shared\obj\Debug\net6.0\ClassTracking.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Practice\ClassTracking\ClassTracking\Shared\obj\Debug\net6.0\ClassTracking.Shared.AssemblyInfoInputs.cache
+D:\Programming\Practice\ClassTracking\ClassTracking\Shared\obj\Debug\net6.0\ClassTracking.Shared.AssemblyInfo.cs
+D:\Programming\Practice\ClassTracking\ClassTracking\Shared\obj\Debug\net6.0\ClassTracking.Shared.csproj.CoreCompileInputs.cache
+D:\Programming\Practice\ClassTracking\ClassTracking\Shared\obj\Debug\net6.0\ClassTracking.Shared.dll
+D:\Programming\Practice\ClassTracking\ClassTracking\Shared\obj\Debug\net6.0\refint\ClassTracking.Shared.dll
+D:\Programming\Practice\ClassTracking\ClassTracking\Shared\obj\Debug\net6.0\ClassTracking.Shared.pdb
+D:\Programming\Practice\ClassTracking\ClassTracking\Shared\obj\Debug\net6.0\ref\ClassTracking.Shared.dll

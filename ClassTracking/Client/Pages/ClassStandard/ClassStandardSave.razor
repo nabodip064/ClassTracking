@@ -1,0 +1,83 @@
+﻿@page "/class/save"
+@page "/class/save/{Id:int}"
+@inherits Bases.ClassStandardInfo.ClassStandardSaveBase
+
+@if(Id == null)
+{
+    <h3>Add New Class</h3>
+}
+else
+{
+    <h3>Edit @classStandard.Name</h3>
+}
+<br />
+<hr />
+<a href="class/list" class="btn btn-info">Back</a>
+<EditForm Model="@classStandard" OnValidSubmit="HandleValidSubmit">
+    <DataAnnotationsValidator/>
+    <ValidationSummary/>
+    <div class="form-group row">
+        <label for="Name" class="col-sm-3 col-form-label">
+            Name
+        </label>
+        <div class="col-sm-9">
+            <InputText id="Name" class="form-control" placeholder="Name" @bind-Value="classStandard.Name" />
+            <ValidationMessage For="@(() => classStandard.Name)"/>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="Description" class="col-sm-3 col-form-label">
+            Description
+        </label>
+        <div class="col-sm-9">
+            <InputText id="Description" class="form-control" placeholder="Description" @bind-Value="classStandard.Description" />
+            <ValidationMessage For="@(() => classStandard.Description)"/>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="Standard" class="col-sm-3 col-form-label">
+            Standard
+        </label>
+        <div class="col-sm-9">
+            <InputNumber id="Standard" class="form-control" placeholder="Standard" @bind-Value="classStandard.Standard" />
+            <ValidationMessage For="@(() => classStandard.Standard)"/>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="MaxStudent" class="col-sm-3 col-form-label">
+            Max Student
+        </label>
+        <div class="col-sm-9">
+            <InputNumber id="MaxStudent" class="form-control" placeholder="Max Student" @bind-Value="classStandard.MaxStudent" />
+            <ValidationMessage For="@(() => classStandard.MaxStudent)"/>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="SessionYear" class="col-sm-3 col-form-label">
+            Session Year
+        </label>
+        <div class="col-sm-9">
+            <InputNumber id="SessionYear" class="form-control" placeholder="Session Year" @bind-Value="classStandard.SessionYear" />
+            <ValidationMessage For="@(() => classStandard.SessionYear)"/>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="Teacher" class="col-sm-3 col-form-label">
+            Assign Teacher
+        </label>
+        <div class="col-sm-9">            
+            <InputSelect id="Teacher" class="form-control" placeholder="Teacher" @bind-Value="classStandard.TeacherId" >
+                <option value="">Select Any</option>
+                @foreach (var teacher in teachers)
+                {
+                    <option value="@teacher.Id">@teacher.Name</option>
+                }
+            </InputSelect>
+        </div>
+    </div>
+    <button class="btn btn-primary" type="submit">Submit</button>
+</EditForm>
+
+@code {
+
+}

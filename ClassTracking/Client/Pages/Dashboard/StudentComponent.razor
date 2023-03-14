@@ -1,0 +1,21 @@
+﻿@inherits ClassTracking.Client.Bases.Dashboard.StudentComponentBase
+
+@if(students != null)
+{
+    foreach(var student in students)
+    {
+        <br/>
+        <div class="border border-success">
+            <div>Student @student.Id</div>
+            <div>Name: @student.Name</div>
+            <div>Mother Name: @student.MotherName</div>
+            <div>Father Name: @student.FatherName</div>
+            <div>Nationality: @student.Nationality</div>
+            <div>Enroll Date: @student.EnrollDate</div>
+        </div>
+    }
+}
+
+@code {
+
+}

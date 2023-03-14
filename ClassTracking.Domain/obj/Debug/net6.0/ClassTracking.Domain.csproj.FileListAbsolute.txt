@@ -1,0 +1,15 @@
+D:\Programming\Practice\ClassTracking\ClassTracking.Domain\bin\Debug\net6.0\ClassTracking.Domain.deps.json
+D:\Programming\Practice\ClassTracking\ClassTracking.Domain\bin\Debug\net6.0\ClassTracking.Domain.dll
+D:\Programming\Practice\ClassTracking\ClassTracking.Domain\bin\Debug\net6.0\ClassTracking.Domain.pdb
+D:\Programming\Practice\ClassTracking\ClassTracking.Domain\bin\Debug\net6.0\ClassTracking.Shared.dll
+D:\Programming\Practice\ClassTracking\ClassTracking.Domain\bin\Debug\net6.0\ClassTracking.Shared.pdb
+D:\Programming\Practice\ClassTracking\ClassTracking.Domain\obj\Debug\net6.0\ClassTracking.Domain.csproj.AssemblyReference.cache
+D:\Programming\Practice\ClassTracking\ClassTracking.Domain\obj\Debug\net6.0\ClassTracking.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Practice\ClassTracking\ClassTracking.Domain\obj\Debug\net6.0\ClassTracking.Domain.AssemblyInfoInputs.cache
+D:\Programming\Practice\ClassTracking\ClassTracking.Domain\obj\Debug\net6.0\ClassTracking.Domain.AssemblyInfo.cs
+D:\Programming\Practice\ClassTracking\ClassTracking.Domain\obj\Debug\net6.0\ClassTracking.Domain.csproj.CoreCompileInputs.cache
+D:\Programming\Practice\ClassTracking\ClassTracking.Domain\obj\Debug\net6.0\ClassTracking.Domain.csproj.CopyComplete
+D:\Programming\Practice\ClassTracking\ClassTracking.Domain\obj\Debug\net6.0\ClassTracking.Domain.dll
+D:\Programming\Practice\ClassTracking\ClassTracking.Domain\obj\Debug\net6.0\refint\ClassTracking.Domain.dll
+D:\Programming\Practice\ClassTracking\ClassTracking.Domain\obj\Debug\net6.0\ClassTracking.Domain.pdb
+D:\Programming\Practice\ClassTracking\ClassTracking.Domain\obj\Debug\net6.0\ref\ClassTracking.Domain.dll

@@ -1,0 +1,6 @@
+D:\Programming\Practice\ClassTracking\ClassTracking\Client\obj\Release\net6.0\ClassTracking.Client.csproj.AssemblyReference.cache
+D:\Programming\Practice\ClassTracking\ClassTracking\Client\obj\Release\net6.0\ClassTracking.Client.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Practice\ClassTracking\ClassTracking\Client\obj\Release\net6.0\ClassTracking.Client.AssemblyInfoInputs.cache
+D:\Programming\Practice\ClassTracking\ClassTracking\Client\obj\Release\net6.0\ClassTracking.Client.AssemblyInfo.cs
+D:\Programming\Practice\ClassTracking\ClassTracking\Client\obj\Release\net6.0\ClassTracking.Client.csproj.CoreCompileInputs.cache
+D:\Programming\Practice\ClassTracking\ClassTracking\Client\obj\Release\net6.0\ClassTracking.Client.MvcApplicationPartsAssemblyInfo.cache

@@ -1,0 +1,71 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = browser
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = true
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = ClassTracking.Client
+build_property.RootNamespace = ClassTracking.Client
+build_property.ProjectDir = D:\Programming\Practice\ClassTracking\ClassTracking\Client\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Programming\Practice\ClassTracking\ClassTracking\Client
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Programming/Practice/ClassTracking/ClassTracking/Client/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programming/Practice/ClassTracking/ClassTracking/Client/Pages/ClassStandard/ClassStandardList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xhc3NTdGFuZGFyZFxDbGFzc1N0YW5kYXJkTGlzdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programming/Practice/ClassTracking/ClassTracking/Client/Pages/ClassStandard/ClassStandardSave.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xhc3NTdGFuZGFyZFxDbGFzc1N0YW5kYXJkU2F2ZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programming/Practice/ClassTracking/ClassTracking/Client/Pages/Dashboard/HomeClass.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFzaGJvYXJkXEhvbWVDbGFzcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programming/Practice/ClassTracking/ClassTracking/Client/Pages/Dashboard/StudentComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFzaGJvYXJkXFN0dWRlbnRDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programming/Practice/ClassTracking/ClassTracking/Client/Pages/Dashboard/TeacherComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFzaGJvYXJkXFRlYWNoZXJDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programming/Practice/ClassTracking/ClassTracking/Client/Pages/StudentInfo/StudentList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3R1ZGVudEluZm9cU3R1ZGVudExpc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programming/Practice/ClassTracking/ClassTracking/Client/Pages/StudentInfo/StudentSave.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3R1ZGVudEluZm9cU3R1ZGVudFNhdmUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programming/Practice/ClassTracking/ClassTracking/Client/Pages/TeacherInfo/TeacherList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVhY2hlckluZm9cVGVhY2hlckxpc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programming/Practice/ClassTracking/ClassTracking/Client/Pages/TeacherInfo/TeacherSave.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVhY2hlckluZm9cVGVhY2hlclNhdmUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programming/Practice/ClassTracking/ClassTracking/Client/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programming/Practice/ClassTracking/ClassTracking/Client/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-h61p2bq7s7
+
+[D:/Programming/Practice/ClassTracking/ClassTracking/Client/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-9cwys0sdm6

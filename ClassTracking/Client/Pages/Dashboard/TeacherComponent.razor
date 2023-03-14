@@ -1,0 +1,18 @@
+﻿@inherits ClassTracking.Client.Bases.Dashboard.TeacherComponentBase
+
+@if(teacher != null)
+{
+    <br/>
+    <div class="border border-success">
+        <div>Teacher @teacher.Id</div>
+        <div>Name: @teacher.Name</div>
+        <div>Designation: @teacher.Designation</div>
+    </div>
+}
+else{
+    <p>Loading......</p>
+}
+
+@code {
+
+}

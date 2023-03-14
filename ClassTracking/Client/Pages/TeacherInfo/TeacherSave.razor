@@ -1,0 +1,51 @@
+﻿@page "/teacher/save"
+@page "/teacher/save/{Id:int}"
+@inherits Bases.TeacherInfo.TeacherSaveBase
+
+@if(Id == null)
+{
+    <h3>Add New Teacher</h3>
+}
+else
+{
+    <h3>Edit @teacher.Name</h3>
+}
+<br />
+<hr />
+<a href="teacher/list" class="btn btn-info">Back</a>
+<EditForm Model="@teacher" OnValidSubmit="HandleValidSubmit">
+    <DataAnnotationsValidator/>
+    <ValidationSummary/>
+    <div class="form-group row">
+        <label for="Name" class="col-sm-3 col-form-label">
+            Name
+        </label>
+        <div class="col-sm-9">
+            <InputText id="Name" class="form-control" placeholder="Name" @bind-Value="teacher.Name" />
+            <ValidationMessage For="@(() => teacher.Name)"/>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="Designation" class="col-sm-3 col-form-label">
+            Designation
+        </label>
+        <div class="col-sm-9">
+            <InputText id="Designation" class="form-control" placeholder="Mother Name" @bind-Value="teacher.Designation" />
+            <ValidationMessage For="@(() => teacher.Designation)"/>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="JoiningDate" class="col-sm-3 col-form-label">
+            Joining Date
+        </label>
+        <div class="col-sm-9">
+            <InputDate id="JoiningDate" class="form-control" placeholder="Date of Birth" @bind-Value="teacher.JoiningDate" />
+            <ValidationMessage For="@(() => teacher.JoiningDate)"/>
+        </div>
+    </div>
+    <button class="btn btn-primary" type="submit">Submit</button>
+</EditForm>
+
+@code {
+
+}
