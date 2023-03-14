@@ -22,12 +22,12 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Programming/Practice/ClassTracking/ClassTracking/Client/Pages/ClassStandard/ClassStandardList.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xhc3NTdGFuZGFyZFxDbGFzc1N0YW5kYXJkTGlzdC5yYXpvcg==
+[D:/Programming/Practice/ClassTracking/ClassTracking/Client/Pages/ClassStandardInfo/ClassStandardList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xhc3NTdGFuZGFyZEluZm9cQ2xhc3NTdGFuZGFyZExpc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Programming/Practice/ClassTracking/ClassTracking/Client/Pages/ClassStandard/ClassStandardSave.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xhc3NTdGFuZGFyZFxDbGFzc1N0YW5kYXJkU2F2ZS5yYXpvcg==
+[D:/Programming/Practice/ClassTracking/ClassTracking/Client/Pages/ClassStandardInfo/ClassStandardSave.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xhc3NTdGFuZGFyZEluZm9cQ2xhc3NTdGFuZGFyZFNhdmUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Programming/Practice/ClassTracking/ClassTracking/Client/Pages/Dashboard/HomeClass.razor]
