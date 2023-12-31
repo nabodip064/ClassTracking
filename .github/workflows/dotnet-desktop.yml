@@ -1,0 +1,27 @@
+name: Build and Test
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-test:
+    runs-on: windows-latest  # .NET Framework typically runs on Windows
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+
+    - name: Setup .NET Framework
+      uses: actions/setup-dotnet@v2
+      with:
+        dotnet-version: 4.x  # Specify the .NET Framework version
+
+    - name: Restore Dependencies
+      run: nuget restore
+
+    - name: Build
+      run: msbuild /p:Configuration=Release
+
+# Add additional steps as needed for deployment, code analysis, etc.
