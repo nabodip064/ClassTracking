@@ -27,6 +27,6 @@ jobs:
       run: nuget restore
 
     - name: Build
-      run: msbuild /p:Configuration=Release
+      run: msbuild -t:rebuild /p:Configuration=Release
 
 # Add additional steps as needed for deployment, code analysis, etc.
