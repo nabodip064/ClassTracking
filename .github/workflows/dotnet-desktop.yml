@@ -11,12 +11,17 @@ jobs:
 
     steps:
     - name: Checkout Repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v2
 
     - name: Setup .NET Framework
-      uses: actions/setup-dotnet@v2
-      with:
-        dotnet-version: 4.x  # Specify the .NET Framework version
+      uses: microsoft/setup-msbuild@v1 # actions/setup-dotnet@v2
+      #with:
+        #dotnet-version: 4.x  # Specify the .NET Framework version
+    - name: Setup NuGet
+      uses: NuGet/setup-nuget@v1.0.5
+      
+    - name: setup-msbuild
+      uses: microsoft/setup-msbuild@v1.1
 
     - name: Restore Dependencies
       run: nuget restore
