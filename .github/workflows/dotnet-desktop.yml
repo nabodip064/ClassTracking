@@ -7,7 +7,7 @@ on:
 
 jobs:
   build-and-test:
-    runs-on: windows-latest  # .NET Framework typically runs on Windows
+    runs-on: windows-2019 # windows-latest  # .NET Framework typically runs on Windows
 
     steps:
     - name: Checkout Repository
