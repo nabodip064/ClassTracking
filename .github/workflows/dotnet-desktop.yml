@@ -24,9 +24,9 @@ jobs:
       uses: microsoft/setup-msbuild@v1.1
 
     - name: Restore Dependencies
-      run: nuget restore
+      run: nuget restore ClassTracking.sln
 
     - name: Build
-      run: msbuild -t:rebuild /p:Configuration=Release
+      run: msbuild ClassTracking.sln -t:rebuild -property:Configuration=Release
 
 # Add additional steps as needed for deployment, code analysis, etc.
